@@ -2,12 +2,103 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minha Página</title>
+    <title>Primeira Página Web do Matheus</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <h1>Matheus Santos Barbosa</h1>
+    <div class="divExterna">
+      <div class="divNomeFoto">
+        <h1>Minha primeira página</h1>
+      </div>
+      <div class="divParagrafos">
+        <p>
+          Olá, meu nome é Matheus Santos Barbosa sou estudante de Engenharia de
+          Computação pelo CEFET-MG e essa é minha primeira página web, essa
+          página é o primeiro trabalho da disciplina de Computação Gráfica e
+          nela vou falar um pouco sobre mim e como vim parar no curso, mas de
+          forma descontraída e consideravelmente informal, isso aqui não é um
+          portifólio ou currículo!
+        </p>
+        <p>
+          Desde que eu me entendo por gente sempre fui apaixonado por jogos, e
+          isso com o tempo foi aumentando o meu contato com a tecnologia e
+          aumentando meu desejo de fazer parte desse mundo e trabalhar com isso.
+          Isso fez com que eu entrasse no CEFET no semestre 2022.2 e se tudo der
+          certo me formo em 2027.2. Gosto bastante de programar, ainda não fiz
+          estágio mas estou participando de um projeto de extensão onde estamos
+          desenvolvendo um sistema para a SEAPA (Secretaria de Estado de
+          Agricultura, Pecuária e Abastecimento). No projeto estamos usando
+          Postgresql Docker Python no backend, e no front estamos usando React e
+          Vite e Tailwind.
+        </p>
+        <p>
+          Apesar dessa experiencia, não tenho certeza de qual área dentro do
+          curso quero seguir. Evidentemente que a area de dev é a com mais
+          oferta no mercado, como gosto de programar principalmente no backend é
+          pra mim até então a possibilidade mais provável. Porém tenho muita
+          vontade de desenvolver um jogo em algum momento, independente do
+          possível retorno financeiro disso. Por isso estou muito animado para
+          os trabalhos práticos de computação gráfica e tambem para os trabalhos
+          que vou fazer na disciplina de jogos que pretendo me matricular no
+          próximo semestre.
+        </p>
+        <p>
+          Fora o que já foi dito, não sei se tenho mais algo a dizer que vá
+          prender o seu interesse, então como já falei da minha paixão por
+          jogos, vou usar o restante dessa página pra te apresentar alguns dos
+          meus jogos preferidos.
+        </p>
+      </div>
+
+      <div class="divJogo" id="jogo-0">
+        <h2>The Legend Of Zelda Ocarina of Time</h2>
+        <p>
+          Esse foi o primeiro Zelda que eu joguei, e depois de jogar ele passei
+          a amar a franquia e esse é até hoje meu zelda preferido. Joguei a
+          versão de 3ds no emulador Citra e foi uma experiencia incrível, nesse
+          eu não preciso me estender tanto que sei que o professor ja conhece, o
+          jogo é simplesmente genial.
+        </p>
+        <div class="divVideo">
+          <video></video>
+        </div>
+        <button onclick="funcaoMisteriosa(0)">?</button>
+      </div>
+
+      <div class="divJogo" id="jogo-1">
+        <h2>Outer Wilds</h2>
+        <p>
+          Outer Wilds é uma experiencia unica, a forma como a investigação e as
+          coisas que você descobre guiam a sua exploração é incrível. Cada
+          planeta do jogo tem uma mecânica única e o jogo é bem feito em cada
+          mínimo detalhe. É um jogo de exploração espacial de mundo aberto com
+          uma narrativa incrível que é contada da melhor forma possível. O único
+          problema desse jogo é que depois de zerar você quer esquecer dele pra
+          conseguir jogar denovo
+        </p>
+        <div class="divVideo">
+          <video></video>
+        </div>
+        <button onclick="funcaoMisteriosa(1)">?</button>
+      </div>
+
+      <div class="divJogo" id="jogo-2">
+        <h2>Tears of the Kingdom</h2>
+        <div class="divVideo">
+          <video></video>
+        </div>
+        <p>
+          Tears Of The Kingdom é uma evolução clara de Breath of The Wild, e ele
+          pega o que ja era genial e leva ao extremo. O jogo tem mecânicas
+          incríveis uma exploração que assim como a do seu antecessor é
+          magnífica. Pra mim a maior qualidade dele em relação ao BOTW é que
+          TOTK tem uma main quest infinitamente superior ao meu ver. Devo ter
+          jogado umas 300 horas desse jogo e não fiz tudo que tinha pra fazer
+          nele. Com certeza o Zelda mas rico e completo de todos os tempos.
+        </p>
+        <button onclick="funcaoMisteriosa(2)">?</button>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
